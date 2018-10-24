@@ -38,6 +38,9 @@ In this way, the Inception model is used to extract useful information from the 
 	* Generate Test Report 
 		| python generate_dog_breed_report.py
 
+# Download trained model
+	Download model from https://1drv.ms/u/s!AioA6iXbzJf_gQTjIxyumJ2xhXgv
+
 # Results  
 	* Epochs = 2500
 	* Training Time = 12.57min on i5.
