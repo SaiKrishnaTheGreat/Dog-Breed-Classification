@@ -32,7 +32,7 @@ In this way, the Inception model is used to extract useful information from the 
 		* Validation Images : 1034
 
 	* Train model
-		| python retrain.py --image_dir=dataset/ --bottleneck_dir=bottleneck/ --how_many_training_steps=500 --output_graph=trained_model/retrained_graph.pb --output_labels=trained_model/retrained_labels.txt --summaries_dir=summaries --print_misclassified_test_images
+		| python train_dog_breed_model.py --image_dir=dataset/ --bottleneck_dir=bottleneck/ --how_many_training_steps=500 --output_graph=trained_model/retrained_graph.pb --output_labels=trained_model/retrained_labels.txt --summaries_dir=summaries --print_misclassified_test_images
 
 	* Test model
 		| python identiy_dog.py <input_image>
