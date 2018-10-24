@@ -38,7 +38,10 @@ In this way, the Inception model is used to extract useful information from the 
 	* Generate Test Report 
 		| python generate_dog_breed_report.py
 
-# Results 
-	* Model accuracy 
+# Results  
+	* Epochs = 2500
+	* Training Time = 12.57min on i5.
+	* Accuracy = 91.0%  out of 1034 images 941 are identified correctly.
+![alt text](https://github.com/SaiKrishnaTheGreat/Dog-Breed-Classification/blob/master/img/result_1.png)
 
 # Improvements
