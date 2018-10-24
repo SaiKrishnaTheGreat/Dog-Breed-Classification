@@ -10,3 +10,35 @@ In this way, the Inception model is used to extract useful information from the 
 
 ![alt text](https://github.com/SaiKrishnaTheGreat/Dog-Breed-Classification/blob/master/img/transferLearning.png)
 
+# Implementation
+
+	* Download Files
+		Download dataset from https://www.kaggle.com/c/dog-breed-identification/data
+		* train.zip
+		* test.zip
+		* labels.csv.zip
+		* sample_submission.zip
+
+	* Setup and Installation
+		* Run " sudo pip install -r requirements.txt"
+		* Unzip all folders 
+
+	* Data pre_processing
+		| python data_processing.py ./
+		* Total Images : 10,222
+		* Training Images : 9188
+		* Validation Images : 1034
+
+	* Train model
+		| python retrain.py --image_dir=dataset/ --bottleneck_dir=bottleneck/ --how_many_training_steps=500 --output_graph=trained_model/retrained_graph.pb --output_labels=trained_model/retrained_labels.txt --summaries_dir=summaries --print_misclassified_test_images
+
+	* Test model
+		| python identiy_dog.py <input_image>
+
+	* Generate Test Report 
+		| python generate_dog_breed_report.py
+
+# Results 
+	* Model accuracy 
+
+# Improvements
