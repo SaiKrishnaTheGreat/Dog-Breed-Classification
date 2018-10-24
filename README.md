@@ -25,6 +25,7 @@ In this way, the Inception model is used to extract useful information from the 
 
 	* Data pre_processing
 		| python data_processing.py ./
+		* classes : 120 dog breeds
 		* Total Images : 10,222
 		* Training Images : 9188
 		* Validation Images : 1034
@@ -46,6 +47,9 @@ In this way, the Inception model is used to extract useful information from the 
 	* Training Time = 12.57min on i5.
 	* Accuracy = 91.0%  out of 1034 images 941 are identified correctly.
 ![alt text](https://github.com/SaiKrishnaTheGreat/Dog-Breed-Classification/blob/master/img/result_1.png)
+	* identify_dog.py script gives the class of the identified dog.
+	* generate_dog_breed_report.py generates csv file taking inputs from sample_submision.csv and test folder
+
 
 # How to Improve the accuracy
 * Adding more Data :
