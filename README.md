@@ -44,4 +44,12 @@ In this way, the Inception model is used to extract useful information from the 
 	* Accuracy = 91.0%  out of 1034 images 941 are identified correctly.
 ![alt text](https://github.com/SaiKrishnaTheGreat/Dog-Breed-Classification/blob/master/img/result_1.png)
 
-# Improvements
+# How to Improve the accuracy
+	* Adding more Data
+		Having more data is always a good idea. It allows the “data to tell for itself,” instead of relying on assumptions and weak correlations. Presence of more data results in better and accurate models
+	* Model selection 
+		Other models like ResNet and MobileNet can give more accurate results.
+	* Data Filtration
+		Increasing the existing dataset with rotation,color filtration can insrease accuracy.
+	* Algorithm selection OR Traing from scratch
+		Instead of Transferlearning, training from scratch(though takes more time) can increase the accuracy as the calculated parameters decreases.
