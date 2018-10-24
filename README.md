@@ -1,5 +1,5 @@
 # Dog-Breed-Classification
-Dog Breed Classification using tensorflow for Kaggle Competetion https://www.kaggle.com/c/dog-breed-identification/kernels
+Dog Breed Classification using tensorflow for Kaggle Competition https://www.kaggle.com/c/dog-breed-identification/kernels
 
 # Transfer-Learning 
 The following chart shows how the data flows when using the Inception model for Transfer Learning. First we input and process an image with the Inception model. Just prior to the final classification layer of the Inception model, we save the so-called Transfer Values to a cache-file.The transfer-values are also sometimes called bottleneck-values.
